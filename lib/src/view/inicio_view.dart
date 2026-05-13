@@ -71,7 +71,11 @@ class _InicioViewState extends State<InicioView> {
           });
         },
 
-        child: const Icon(Icons.replay_outlined),
+        child: const Text('Gerar', style: 
+        TextStyle(
+          color: Colors.black,
+          fontWeight: FontWeight.bold
+          ),),
       ),
     );
   }
